@@ -23,7 +23,7 @@ document.querySelector('.js-userinput').addEventListener("keyup", function(e){
 // AJAX Request
 function ajaxRequest(url){
 	var GiphyAJAXCall = new XMLHttpRequest();
-	alert(url);
+	//alert(url);
 	GiphyAJAXCall.open("GET", url);
 	GiphyAJAXCall.send();
 	console.log(GiphyAJAXCall);
