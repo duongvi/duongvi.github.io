@@ -2,7 +2,7 @@
 
 document.querySelector('.js-go').addEventListener("click", function(){
 	var input = document.querySelector("input").value;
-	var url = "http://api.giphy.com/v1/gifs/search?q=" + input.replace(" ", "+") + "&api_key=dc6zaTOxFJmzC";
+	var url = "https://api.giphy.com/v1/gifs/search?q=" + input.replace(" ", "+") + "&api_key=dc6zaTOxFJmzC";
 	ajaxRequest(url);
 });
 
@@ -12,7 +12,7 @@ document.querySelector('.js-userinput').addEventListener("keyup", function(e){
 	var input = document.querySelector("input").value;
 	// If Enter is pressed
 	if (e.which === 13) {
-		var url = "http://api.giphy.com/v1/gifs/search?q=" + input.replace(" ", "+") + "&api_key=dc6zaTOxFJmzC";
+		var url = "https://api.giphy.com/v1/gifs/search?q=" + input.replace(" ", "+") + "&api_key=dc6zaTOxFJmzC";
 		ajaxRequest(url);
 	}
 	
@@ -25,7 +25,7 @@ function ajaxRequest(url){
 	var GiphyAJAXCall = new XMLHttpRequest();
 	GiphyAJAXCall.open("GET", url);
 	GiphyAJAXCall.send();
-
+	console.log(GiphyAJAXCall);
 	GiphyAJAXCall.addEventListener('load', function(e){
 		var data = e.target.response;
 		//console.log(data);
