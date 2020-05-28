@@ -1,6 +1,9 @@
 /* Navbar container */
 .navbar {
-  overflow: hidden;
+  /*overflow: hidden;*/
+  position:fixed;
+  width: 100%;
+  margin: -8px;
   background-color: #333;
 }
 
