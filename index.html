@@ -2,21 +2,48 @@
 <html>
 <head>
 	<title>Viet Duong's Website</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
 		body {
-			background: lightblue;
-			color: white;
+			background: white;
+			color: grey;
+		}
+
+		h1 {
+			color:black;
 		}
 	</style>
 </head>
 <body>
+	<!-- Navigation bar -->
+<div class="navbar" style="padding:0px">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+	     	<h4>OneMonth Learn JavaScript</h4>
+			<a href="projects/onemonth-giphy">Giphy Search</a>
+			<a href="projects/onemonth-soundcloud">Mini SoundCloud Player</a>
+			<a href="projects/onemonth-visualization">Data Visualization with Google Charts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding:20px">
 	<h1>Hello World!</h1>
 	The projects that I completed with OneMonth are:
 	<ul>
-		<li><a href="projects/onemonth-giphy">Giphy Search</a></li>
-		<li><a href="projects/onemonth-soundcloud">Mini SoundCloud Player</a></li>
-		<li><a href="projects/onemonth-visualization">Data Visualization with Google Charts</a></li>
+	
 	</ul>
-
+</div>
 </body>
 </html>
