@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Visualization Assignment</title>
+	<title>Data Visualization</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../main.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
 	<style type="text/css">
-		body{
-			background-color: lightblue;
-			color: white;
+		*{
+			box-sizing: border-box;
+		}
+
+		body {
+			color: #6E6E6E;
+			font-family: "Abhaya Libre";
+			font-size: 18px;
+		}
+
+		h1 {
+			color:black;
 		}
 	</style>
 </head>
 <body>
-	<h1>Visualizing Some Data on Movie Streaming Platforms</h1>
-	<div id="visualization"></div>
+	<!-- Navigation bar -->
+<div class="navbar" style="top:0px">
+  <a href="../../index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+            <h3>OneMonth Learn JavaScript</h4>
+            <a href="../onemonth-giphy">Giphy Search</a>
+            <a href="../onemonth-soundcloud">Mini SoundCloud Player</a>
+            <a href="../onemonth-visualization">Data Visualization with Google Charts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="../../contact.html">Contact</a>
+</div>
+
+<h1>Data Visualization with Google Charts</h1>
+<div id="visualization"></div>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>

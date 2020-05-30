@@ -1,0 +1,35 @@
+/*Used color palette: https://www.colourlovers.com/palette/1730922/Eye_of_the_Shadow */
+
+body {
+	background: url('nyan-cat.jpg');
+	font-family: 'Teko', sans-serif;
+}
+
+#container {
+	width: 400px;
+	color: white;
+	float: right;
+	padding: 15px;
+	background: #0F4044;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	background: #CBFBED;
+	color: black;
+	font-size: 30px;
+	padding: 5px;
+}
+
+iframe {
+	width: 390px;
+	height: 200px;
+}
+
+a {
+	color: #CBFBED;
+	text-decoration: none;
+}

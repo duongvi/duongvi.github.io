@@ -1,0 +1,100 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+/* 	*/
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#container {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+#main {
+	background: white;
+	width: 610px;
+	padding: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+#sidebar {
+	background: white;
+	width: 340px;
+	padding: 30px;
+	float: left;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+#header h1 {
+	margin: 30px 0 0 0;
+	font-size: 50px;
+}
+
+#header h4 {
+	margin: -20px 0 25px 0;
+}
+
+/*Make rounded picture*/
+#chris {
+	border-radius: 50%;
+}
+
+/*Make links orange and bold*/
+a {
+	color: darkorange;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+/*Make vertical line next to quote*/
+blockquote {
+	border-left: 4px solid #BDBDBD;
+	margin: 1em 0 1em 0;
+	padding: 0 20px 0 15px;
+	font-style: italic;
+}
+
+#main h2 {
+	margin: 0;
+}
+
+.post-footer {
+	color: #BDBDBD;
+	border-top: 2px solid;
+	padding: 16px 0 40px 0;
+}
