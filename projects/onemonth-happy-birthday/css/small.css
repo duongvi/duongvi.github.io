@@ -1,3 +1,11 @@
+body {
+	background: white;
+}
+
+footer {
+	color: black;
+}
+
 .container {
 	width: 100%;
 	border-radius: 0;
