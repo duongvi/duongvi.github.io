@@ -1,17 +1,8 @@
-.container {
-	width: 80%;
-	max-width: 1024px;
-	margin: 0 auto;
-}
-
-.container-padding50 {
-	padding-top: 50px;
-}
-
 .container-textinput {
 	width: 80%;
 	display: inline-block;
 	padding: 20px;
+	margin: 0 20px 20px 20px;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
 }
@@ -34,4 +25,10 @@
 	display: block;
 	float: left;
 	margin-right:3%;
+}
+
+.js-container {
+	width: 100%;
+	padding-left: 25px;
+	overflow: auto;
 }
