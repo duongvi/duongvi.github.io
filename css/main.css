@@ -10,10 +10,6 @@ body {
   color: #6E6E6E;
   font-family: "Abhaya Libre";
   font-size: 18px;
-  background: url("../images/prague-background.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
 }
 
 h1 {
@@ -21,16 +17,9 @@ h1 {
 }
 
 
-.text-container a {
-  color: orange;
-  font-weight: 1000;
-  text-decoration: none;
-}
-
 /* Container */
 .container {
-  width: 800px;
-  margin: 0 auto 0 auto;
+  width: 100%;
   background: white;
 }
 
@@ -40,6 +29,11 @@ h1 {
   padding: 40px;
 }
 
+.text-container a {
+  color: orange;
+  font-weight: 1000;
+  text-decoration: none;
+}
 
 /* Footer styles */
 footer {
@@ -165,12 +159,16 @@ Navbar container
   clear: both;
 }
 
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 100%;
+@media only screen and (min-width: 700px) {
+  body {
+    background: url("../images/prague-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
 
-  .navbar {
-    width: 100%;
+  .container {
+    width: 700px;
+    margin: 0 auto 0 auto;
   }
 }
