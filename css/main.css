@@ -159,6 +159,18 @@ Navbar container
   clear: both;
 }
 
+.hide-mobile {
+  display: none;
+}
+
+.mobile-only {
+  float: right;
+}
+
+.mobile-only img {
+  height: 100%;
+}
+
 @media only screen and (min-width: 700px) {
   body {
     background: url("../images/prague-background.jpg");
@@ -170,5 +182,13 @@ Navbar container
   .container {
     width: 700px;
     margin: 0 auto 0 auto;
+  }
+
+  .hide-mobile {
+    display: inline;
+  }
+
+  .mobile-only {
+    display: none;
   }
 }
