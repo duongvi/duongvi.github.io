@@ -89,6 +89,10 @@ Navbar container
   text-decoration: none;
 }
 
+#contacts {
+  float:right;
+}
+
 /* The dropdown container */
 .dropdown {
   float: left;

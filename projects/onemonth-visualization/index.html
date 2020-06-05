@@ -5,46 +5,61 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="../../css/main.css">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			width: 100%;
+		}
+	</style>
 
 </head>
 <body>
 	<!-- Navigation bar -->
-<div class="navbar">
-            <div class="navbar-cont>">
-              <a href="../../">Home</a>
-              <div class="dropdown">
-                <button class="dropbtn">Projects
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <div class="row">
-                    <div class="column">
-                        <h3>OneMonth JavaScript</h4>
-                        <a href="../onemonth-giphy">Giphy Search</a>
-                        <a href="#">Mini SoundCloud Player</a>
-                        <a href="../onemonth-visualization">Data Visualization with Google Charts</a>
-                    </div>
+	<div class="navbar">
+        <div class="navbar-cont">
+          <a href="../../">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Projects
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="row">
+                <div class="column">
+                    <h3>OneMonth JavaScript</h4>
+                    <a href="../onemonth-giphy">Giphy Search</a>
+                    <a href="../onemonth-soundcloud">Mini SoundCloud Player</a>
+                    <a href="#">Data Visualization with Google Charts</a>
+                </div>
 
-                    <div class="column">
-                        <h3>OneMonth HTML + CSS</h3>
-                        <a href="../onemonth-nyancat">Nyan Cat (Simple site)</a>
-                        <a href="../onemonth-monthly-resolutions">Monthly Resolutions (Simple blog)</a>
-                        <a href="../onemonth-happy-birthday">Happy Birthday (Responsive)</a>
-                        <a href="../onemonth-aircnc">AirCnC</a>
-                    </div> <!-- .column -->
-                  </div> <!-- .row -->
-                </div> <!-- .dropdown-content -->
-              </div> <!-- .dropdown -->
-              <a href="../../contact.html">Contacts</a>
-            </div> <!-- .navbar-cont -->
-        </div> <!-- .navbar -->
+                <div class="column">
+                    <h3>OneMonth HTML + CSS</h3>
+                    <a href="../onemonth-nyancat">Nyan Cat (Simple site)</a>
+                    <a href="../onemonth-monthly-resolutions">Monthly Resolutions (Simple blog)</a>
+                    <a href="../onemonth-happy-birthday">Happy Birthday (Responsive)</a>
+                    <a href="../onemonth-aircnc">AirCnC</a>
+                </div> <!-- .column -->
+              </div> <!-- .row -->
+            </div> <!-- .dropdown-content -->
+          </div> <!-- .dropdown -->
+          <a href="../../contact.html" id="contacts">Contacts</a>
+        </div> <!-- .navbar-cont -->
+    </div> <!-- .navbar -->
 
 
 <div class="container">
 	<div class="text-container">
 		<h1>Data Visualization with Google Charts</h1>
-		<div id="visualization"></div>
+		<p>In the last week of the JavaScript course by OneMonth, Google Charts was introduced as a way to include, you guessed it, charts on a website using JavaScript and Google's Charts API. Below is a chart depicting the average IMDb scores of movies from individual years. The data used for that was a <a href="https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney/data#">dataset from kaggle.com</a>.</p>
+		<p>You can also hover over the line chart to see what the exact average score was for movies released in that year. Please note that it is not certain, whether the dataset contains all of the movies on IMDb, but my guess is probably not.</p>
+		<div id="visualization" style="width: 100%"></div>
 	</div>
+	<footer>
+		<div class="hide-mobile">Created by Viet Duong</div>
+		<a href="https://www.codewars.com/users/duongvi" target="_blank"><img src="https://www.codewars.com/users/duongvi/badges/micro" class="icon"></a>
+		<a href="mailto:viet.duong@tum.de" target="_blank"><img src="../../images/mail-white.png" class="icon"></a>
+		<a href="https://github.com/duongvi" target="_blank"><img src="../../images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" class="icon"></a>
+		<a href="https://www.linkedin.com/in/viet-duong-851a58191" target="_blank"><img src="../../images/LinkedIn-Logos/LI-In-Bug.png" class="icon"></a>
+	</footer>
 </div>
 
 

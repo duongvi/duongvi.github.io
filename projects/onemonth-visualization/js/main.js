@@ -30,8 +30,8 @@ function handleQueryResponse(response) {
 	var data = response.getDataTable();
 	var options = {
 		title: "Average IMDb Scores for Movies on Netflix, Grouped by Year",
-		height: 400,
-		width: 1000,
+		// height: 400,
+		// width: 100%,
 		hAxis: {
 			title: "Year",
 			format: '0000'
