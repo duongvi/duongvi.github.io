@@ -5,37 +5,53 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>SoundCloud Player</title>
     <link rel='stylesheet' href='styles/semantic.min.css'>
-    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <link rel='stylesheet' href='styles/main.css'>
 
 </head>
 <body id="soundcloud-player">
-    <!-- Navigation bar -->
-<!-- <div class="navbar" style="padding:0px">
-  <a href="../../index.html">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Projects
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
-            <h3>OneMonth Learn JavaScript</h4>
-            <a href="../onemonth-giphy">Giphy Search</a>
-            <a href="../onemonth-soundcloud">Mini SoundCloud Player</a>
-            <a href="index.html">Data Visualization with Google Charts</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a href="../../contact.html">Contact</a>
-</div> -->
+
 <div class="ui container col">
+
     <div class="col-left js-playlist">
         <div class="inner"></div>
     </div>
     <div class="col-right">
+            <!-- Navigation bar -->
+        <div class="navbar" style="">
+            <div class="navbar-cont clearfix" style="width: 100%">
+              <a href="../../">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Projects
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column">
+                        <h3>OneMonth JavaScript</h4>
+                        <a href="../onemonth-giphy">Giphy Search</a>
+                        <a href="#">Mini SoundCloud Player</a>
+                        <a href="../onemonth-visualization">Data Visualization with Google Charts</a>
+                    </div>
+
+                    <div class="column">
+                        <h3>OneMonth HTML + CSS</h3>
+                        <a href="../onemonth-nyancat">Nyan Cat (Simple site)</a>
+                        <a href="../onemonth-monthly-resolutions">Monthly Resolutions (Simple blog)</a>
+                        <a href="../onemonth-happy-birthday">Happy Birthday (Responsive)</a>
+                        <a href="../onemonth-aircnc">AirCnC</a>
+                    </div> <!-- .column -->
+                  </div> <!-- .row -->
+                </div> <!-- .dropdown-content -->
+              </div> <!-- .dropdown -->
+              <a href="../../contact.html">Contacts</a>
+            </div> <!-- .navbar-cont -->
+        </div> <!-- .navbar -->
         <div class="main">
+            <h1>Soundcloud Miniplayer</h1>
+            <p>In the third week of the OneMonth Learn JavaScript course, another API was introduced, this time from Soundcloud. It included a sending search queries for music on Soundcloud, as well as a embedded player from Soundcloud. Go on, try searching for an artist/song and add it to the playlist on the left, from which you can then play the music. You know you want to. Of course, there is also a button for clearing the left panel.</p>
             <button class="clear-button">Clear playlist</button>
             <div class="ui massive icon input">
                 <input type="text" placeholder="Search for a song or artist..." class="js-search input-search">
@@ -46,6 +62,13 @@
 
             </div>
         </div>
+        <footer>
+            <div class="hide-mobile">Created by Viet Duong</div>
+            <a href="https://www.codewars.com/users/duongvi" target="_blank"><img src="https://www.codewars.com/users/duongvi/badges/micro" class="icon"></a>
+            <a href="mailto:viet.duong@tum.de" target="_blank"><img src="../../images/mail-white.png" class="icon"></a>
+            <a href="https://github.com/duongvi" target="_blank"><img src="../../images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" class="icon"></a>
+            <a href="https://www.linkedin.com/in/viet-duong-851a58191" target="_blank"><img src="../../images/LinkedIn-Logos/LI-In-Bug.png" class="icon"></a>
+        </footer>
     </div>
 </div>
 

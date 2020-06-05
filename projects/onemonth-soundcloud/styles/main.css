@@ -6,6 +6,7 @@ html, body {
 }
 
 #soundcloud-player .col {
+	background: url("../../../images/prague-background.jpg");
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -16,7 +17,7 @@ html, body {
 #soundcloud-player .col-left {
 	width: 20%;
 	height: 100%;
-	background-color: #292929;
+	background-color: #8C271E;
 	overflow: auto;
 
 	position: fixed;
@@ -31,10 +32,10 @@ html, body {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-
 	position: fixed;
 	left: 0;
 	top: 0;
+	background: white;
 
 	box-sizing: border-box;
 	padding-left: 20%;
@@ -63,4 +64,14 @@ html, body {
 #soundcloud-player .search-results {
 	justify-content: center;
     margin-top: 30px;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 1000;
+	padding: 0.67em 0;
+}
+
+p {
+	margin-bottom: 1em;
 }
