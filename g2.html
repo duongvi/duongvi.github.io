@@ -5,6 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!-- imgSlider JS -->
+	<script src="distr/imgslider.min.js"></script>
+
+	<!-- imgSlider CSS -->
+	<link rel="stylesheet" href="distr/imgslider.min.css">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -47,16 +56,31 @@
 			<h1>Hello G2!</h1>
 			<p>I have made this site specifically for you in the hopes that since you have already come this far, you will at least consider me for a junior/trainee position. </p>
 
-			<p>I have been a fan of G2 Esports as an organization for a while now (albeit not from the Gamers2 days but I remember and honestly - who WAS a fan at that point..), ever since you signed your first French CS:GO roster. When I saw the ad for a job that also aligns with my field of study, I could not pass up the opportunity of working for this great company. This would merge my hobby and study/work world together.</p>
+			<p>I have been a fan of G2 Esports as an organization for a while now (albeit not from the Gamers2 days but I remember and honestly - who WAS a fan at that point..), ever since you signed your first French CS:GO roster. When I saw the posting for a job that also aligns with my field of study, I could not pass up the opportunity of working for this great company. This would merge my hobby and study/work world together.</p>
 
-			<p>I know that the position is looking for someone more experienced, but I would be willing and even thrilled to have a chance to start at an entry-level position at one of the best Esports organizations, as I have just finished my Bachelor studies in Computer Science at a university that ranks just as high in its field in Germany, even Europe - Technical University Munich. </p>
+			<div class="slider responsive" style="height:300px; width:400px; margin: 30px auto 15px auto">
+			   <div class="left image">
+			      <img src="images/berlin_g2.jpg" />
+			   </div>
+			   <div class="right image">
+			      <img src="images/berlin.jpg"/>
+			   </div>
+			</div>
+
+			<p style="text-align: center; font-size: 12px; margin-bottom: 30px">Me and the boys with kennyS at the Starladder Berlin Major 2019</p>
+
+			<p>I know that the position is looking for someone more experienced, but I would be willing and even thrilled to have a chance to start at an entry-level position at one of the best Esports organizations, as I have just finished my Bachelor studies in Computer Science at a university that ranks just as high in its field in Germany, and even Europe - Technical University Munich. </p>
 
 			<p>While you are at it, you can check out the projects that I undertook while I was learning the basics of web development. Please do keep in mind that <strong>this is not my peak yet</strong>, as I was mostly learning basics and programming in Java and a little bit of Python for data analysis at university and I am about as ready as one can get to learn new skills and knowledge required for the job and more! </p>
 
 			<p>Lastly, I would like to sincerely thank you for reading through everything up until this point and I hope you can find a place in your company where I would fit in.</p>
 		</div>
 
+		<script type="text/javascript">
 
+		  $('.slider').slider();
+
+		</script>
 		<footer>
 			<div class="hide-mobile">Created by Viet Duong</div>
 			<a href="https://www.codewars.com/users/duongvi" target="_blank"><img src="https://www.codewars.com/users/duongvi/badges/micro" class="icon"></a>

@@ -225,4 +225,8 @@ Navbar container
   .mobile-only {
     display: none;
   }
+
+  .slider {
+    width: 60%;
+  }
 }
